@@ -10,7 +10,7 @@
                             <i class="far fa-times"></i>
                         </a>
                         <a href="#">
-                            <img src="assets/img/menu/menu_thumb_1_1.png" alt="Cart Image">
+                            <img src="assets/landing_page/img/menu/menu_thumb_1_1.png" alt="Cart Image">
                             Daria Shevtsova
                         </a>
                         <span class="quantity">1 ×
@@ -25,7 +25,7 @@
                             <i class="far fa-times"></i>
                         </a>
                         <a href="#">
-                            <img src="assets/img/menu/menu_thumb_1_2.png" alt="Cart Image">
+                            <img src="assets/landing_page/img/menu/menu_thumb_1_2.png" alt="Cart Image">
                             Chicken Masala
                         </a>
                         <span class="quantity">1 ×

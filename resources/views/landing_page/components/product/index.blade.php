@@ -2,7 +2,7 @@
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">
-                <img class="icon" src="assets/img/icon/title_icon.svg" alt="icon">
+                <img class="icon" src="assets/landing_page/img/icon/title_icon.svg" alt="icon">
                 Popular Menu
             </span>
             <h2 class="sec-title">Our Special Tea & Coffee <span class="font-style fw-normal text-theme">Menus</span></h2>
@@ -12,7 +12,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_1.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_1.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title">
@@ -39,7 +39,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_2.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_2.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title">
@@ -61,7 +61,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_3.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_3.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title"><a href="#">Black Cold Coffee</a></h3>
@@ -78,7 +78,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_4.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_4.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title"><a href="#">Green Tea</a></h3>
@@ -95,7 +95,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_5.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_5.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title"><a href="#">Black Hot Coffee</a></h3>
@@ -112,7 +112,7 @@
             <div class="col-xl-4 col-md-6">
                 <div class="product-style2">
                     <div class="product-img">
-                        <img src="assets/img/coffee/menu/product_coffee_6.png" alt="Product Image">
+                        <img src="assets/landing_page/img/coffee/menu/product_coffee_6.png" alt="Product Image">
                     </div>
                     <div class="product-content">
                         <h3 class="product-title"><a href="#">Lemon Tea</a></h3>
@@ -131,9 +131,9 @@
         </div>
     </div>
     <div class="shape-mockup coffee jump-reverse" data-top="120px" data-right="0">
-        <img src="assets/img/coffee/shape/coffee_shape_2.png" alt="shape">
+        <img src="assets/landing_page/img/coffee/shape/coffee_shape_2.png" alt="shape">
     </div>
     <div class="shape-mockup coffee jump" data-bottom="100px" data-left="0">
-        <img src="assets/img/coffee/shape/coffee_shape_3.png" alt="shape">
+        <img src="assets/landing_page/img/coffee/shape/coffee_shape_3.png" alt="shape">
     </div>
 </section>

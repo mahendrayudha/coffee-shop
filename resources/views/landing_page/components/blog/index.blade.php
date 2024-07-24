@@ -2,7 +2,7 @@
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">
-                <img class="icon" src="assets/img/icon/title_icon.svg" alt="icon">
+                <img class="icon" src="assets/landing_page/img/icon/title_icon.svg" alt="icon">
                 News & Blog
             </span>
             <h2 class="sec-title">Our Latest <span class="font-style fw-normal text-theme">News</span></h2>
@@ -12,7 +12,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box ">
                     <div class="blog-img">
-                        <img src="assets/img/coffee/blog/blog_2_1.jpg" alt="blog image">
+                        <img src="assets/landing_page/img/coffee/blog/blog_2_1.jpg" alt="blog image">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta d-flex justify-content-between">
@@ -38,7 +38,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box ">
                     <div class="blog-img">
-                        <img src="assets/img/coffee/blog/blog_2_2.jpg" alt="blog image">
+                        <img src="assets/landing_page/img/coffee/blog/blog_2_2.jpg" alt="blog image">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta d-flex justify-content-between">
@@ -60,7 +60,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box ">
                     <div class="blog-img">
-                        <img src="assets/img/coffee/blog/blog_2_3.jpg" alt="blog image">
+                        <img src="assets/landing_page/img/coffee/blog/blog_2_3.jpg" alt="blog image">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta d-flex justify-content-between">
@@ -82,7 +82,7 @@
             <div class="col-md-6 col-xl-4">
                 <div class="blog-box ">
                     <div class="blog-img">
-                        <img src="assets/img/coffee/blog/blog_2_4.jpg" alt="blog image">
+                        <img src="assets/landing_page/img/coffee/blog/blog_2_4.jpg" alt="blog image">
                     </div>
                     <div class="blog-content">
                         <div class="blog-meta d-flex justify-content-between">
@@ -104,9 +104,9 @@
         </div>
     </div>
     <div class="shape-mockup coffee jump-reverse d-none d-lg-block" data-top="0" data-right="0">
-        <img src="assets/img/coffee/shape/coffee_shape_2.png" alt="shape">
+        <img src="assets/landing_page/img/coffee/shape/coffee_shape_2.png" alt="shape">
     </div>
     <div class="shape-mockup leaf jump d-none d-lg-block" data-bottom="60px" data-left="0">
-        <img src="assets/img/coffee/shape/leaf_coffee.png" alt="shape">
+        <img src="assets/landing_page/img/coffee/shape/leaf_coffee.png" alt="shape">
     </div>
 </section>

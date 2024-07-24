@@ -4,17 +4,17 @@
             <div class="col-xl-6 mb-40 mb-xl-0">
                 <div class="img-box4">
                     <div class="img1">
-                        <img src="assets/img/coffee/normal/about_coffee.png" alt="About">
+                        <img src="assets/landing_page/img/coffee/normal/about_coffee.png" alt="About">
                     </div>
                     <div class="shape1">
-                        <img src="assets/img/coffee/normal/about_coffee_shape.png" alt="About">
+                        <img src="assets/landing_page/img/coffee/normal/about_coffee_shape.png" alt="About">
                     </div>
                 </div>
             </div>
             <div class="col-xl-6 text-xl-start text-center">
                 <div class="title-area mb-30">
                     <span class="sub-title">
-                        <img class="icon" src="assets/img/icon/title_icon.svg" alt="icon">
+                        <img class="icon" src="assets/landing_page/img/icon/title_icon.svg" alt="icon">
                         About Us
                     </span>
                     <h2 class="sec-title">Special Features That's Make You Happy & <span

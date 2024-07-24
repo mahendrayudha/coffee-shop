@@ -7,7 +7,7 @@
                         <div class="col-auto">
                             <div class="header-logo">
                                 <a href="{{ route('home') }}">
-                                    <img src="assets/img/logo-coffee.svg" alt="Pizzan">
+                                    <img src="assets/landing_page/img/logo-coffee.svg" alt="Pizzan">
                                 </a>
                             </div>
                         </div>
@@ -24,7 +24,7 @@
                                         <a href="#">News</a>
                                     </li>
                                     <li>
-                                        <a href="contact.html">Contact Us</a>
+                                        <a href="#">Contact Us</a>
                                     </li>
                                 </ul>
                             </nav>
@@ -34,11 +34,23 @@
                         </div>
                         <div class="col-auto d-none d-xl-block">
                             <div class="header-button">
+                                @if (auth()->user() !== null)
+                                    <p class="text-white mb-0"><strong>Hello, {{ auth()->user()->name }}</strong></p>
+                                @endif
                                 <button type="button" class="icon-btn sideMenuToggler d-none d-xl-block">
                                     <i class="far fa-cart-shopping"></i>
                                     <span class="badge">5</span>
                                 </button>
-                                <a href="#" class="th-btn style3">LOG IN</a>
+                                @if (auth()->user() !== null)
+                                    <form action="/logout" method="POST">
+                                        @csrf
+                                        <p>
+                                            <button class="th-btn style3 mt-3" type="submit">Log Out</button>
+                                        </p>
+                                    </form>
+                                @else
+                                    <a href="{{ route('login') }}" class="th-btn style3">LOG IN</a>
+                                @endif
                             </div>
                         </div>
                     </div>

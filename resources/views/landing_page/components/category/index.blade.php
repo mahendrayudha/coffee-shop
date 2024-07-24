@@ -5,9 +5,9 @@
             <div class="row th-carousel" data-slide-show="3" data-lg-slide-show="2" data-md-slide-show="2"
                 data-sm-slide-show="1" data-xs-slide-show="1">
                 <div class="col-lg-4">
-                    <div class="category-box" data-bg-src="assets/img/coffee/normal/coffee_cat_bg.jpg">
+                    <div class="category-box" data-bg-src="assets/landing_page/img/coffee/normal/coffee_cat_bg.jpg">
                         <div class="category-box_icon">
-                            <img src="assets/img/coffee/category/category_2_1.png" alt="icon">
+                            <img src="assets/landing_page/img/coffee/category/category_2_1.png" alt="icon">
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
@@ -19,9 +19,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="category-box" data-bg-src="assets/img/coffee/normal/coffee_cat_bg.jpg">
+                    <div class="category-box" data-bg-src="assets/landing_page/img/coffee/normal/coffee_cat_bg.jpg">
                         <div class="category-box_icon">
-                            <img src="assets/img/coffee/category/category_2_2.png" alt="icon">
+                            <img src="assets/landing_page/img/coffee/category/category_2_2.png" alt="icon">
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
@@ -33,9 +33,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="category-box" data-bg-src="assets/img/coffee/normal/coffee_cat_bg.jpg">
+                    <div class="category-box" data-bg-src="assets/landing_page/img/coffee/normal/coffee_cat_bg.jpg">
                         <div class="category-box_icon">
-                            <img src="assets/img/coffee/category/category_2_3.png" alt="icon">
+                            <img src="assets/landing_page/img/coffee/category/category_2_3.png" alt="icon">
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
@@ -47,9 +47,9 @@
                     </div>
                 </div>
                 <div class="col-lg-4">
-                    <div class="category-box" data-bg-src="assets/img/coffee/normal/coffee_cat_bg.jpg">
+                    <div class="category-box" data-bg-src="assets/landing_page/img/coffee/normal/coffee_cat_bg.jpg">
                         <div class="category-box_icon">
-                            <img src="assets/img/coffee/category/category_2_4.png" alt="icon">
+                            <img src="assets/landing_page/img/coffee/category/category_2_4.png" alt="icon">
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
@@ -62,10 +62,10 @@
                 </div>
             </div>
             <div class="shape-mockup coffee jump-reverse" data-top="0" data-left="0">
-                <img src="assets/img/coffee/shape/coffee_shape_1.png" alt="shape">
+                <img src="assets/landing_page/img/coffee/shape/coffee_shape_1.png" alt="shape">
             </div>
             <div class="shape-mockup coffee jump" data-bottom="0" data-right="0">
-                <img src="assets/img/coffee/shape/coffee_shape_1_1.png" alt="shape">
+                <img src="assets/landing_page/img/coffee/shape/coffee_shape_1_1.png" alt="shape">
             </div>
         </div>
     </div>

@@ -1,4 +1,4 @@
-<footer class="footer-wrapper footer-layout4" data-bg-src="assets/img/coffee/normal/coffee_footer_bg.jpg">
+<footer class="footer-wrapper footer-layout4" data-bg-src="assets/landing_page/img/coffee/normal/coffee_footer_bg.jpg">
     <div class="widget-area">
         <div class="container">
             <div class="row justify-content-between">
@@ -6,7 +6,8 @@
                     <div class="widget footer-widget">
                         <div class="th-widget-about">
                             <div class="about-logo">
-                                <a href="index.html"><img src="assets/img/logo-coffee-white.svg" alt="Pizzan"></a>
+                                <a href="index.html"><img src="assets/landing_page/img/logo-coffee-white.svg"
+                                        alt="Pizzan"></a>
                             </div>
                             <p class="about-text">Quickly supply alternative strategic theme areas vis-a-vis B2C
                                 mindshare. Objectively repurpose stand-alone synergy via user-centric.</p>
