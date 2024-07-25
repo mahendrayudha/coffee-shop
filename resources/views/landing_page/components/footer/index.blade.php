@@ -25,10 +25,10 @@
                         <h3 class="widget_title">Quick Links</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="#">About Us</a></li>
-                                <li><a href="#">Menu</a></li>
-                                <li><a href="#">News</a></li>
-                                <li><a href="#">Contact Us</a></li>
+                                <li><a href="{{ route('comingSoon') }}">About Us</a></li>
+                                <li><a href="#menu-section">Menu</a></li>
+                                <li><a href="#news-section">News</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Contact Us</a></li>
                             </ul>
                         </div>
                     </div>
@@ -38,11 +38,11 @@
                         <h3 class="widget_title">Our Menu</h3>
                         <div class="menu-all-pages-container">
                             <ul class="menu">
-                                <li><a href="#">Chicken Barger</a></li>
-                                <li><a href="#">Brief Pizza</a></li>
-                                <li><a href="#">Fresh Vegetable</a></li>
-                                <li><a href="#">Sea Foods</a></li>
-                                <li><a href="#">Indian Kabab</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Chicken Barger</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Brief Pizza</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Fresh Vegetable</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Sea Foods</a></li>
+                                <li><a href="{{ route('comingSoon') }}">Indian Kabab</a></li>
                             </ul>
                         </div>
                     </div>
@@ -55,8 +55,10 @@
                                 <div class="info-box_icon">
                                     <i class="fal fa-location-dot"></i>
                                 </div>
-                                <p class="info-box_text">Jl. Gajah Mada 288, Kaliwates, Jember, Jawa Timur 68131
-                                </p>
+                                <a href="https://maps.app.goo.gl/dVFMZDk2zb5sd3KH6" target="_blank"
+                                    class="info-box_link">
+                                    Jl. Gajah Mada 288, Kaliwates, Jember, Jawa Timur 68131
+                                </a>
                             </div>
                             <div class="info-box">
                                 <div class="info-box_icon">
@@ -97,8 +99,8 @@
                 <div class="col-lg-6 text-end d-none d-lg-block">
                     <div class="footer-links">
                         <ul>
-                            <li><a href="#">Privacy Policy</a></li>
-                            <li><a href="#">Terms of Use</a></li>
+                            <li><a href="{{ route('comingSoon') }}">Privacy Policy</a></li>
+                            <li><a href="{{ route('comingSoon') }}">Terms of Use</a></li>
                         </ul>
                     </div>
                 </div>

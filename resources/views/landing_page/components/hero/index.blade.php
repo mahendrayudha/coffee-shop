@@ -35,7 +35,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             and Coffee <span class="text-theme">Shop</span>
         </h1>
-        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:14px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:180px; left:344px; top:647px; text-transform:uppercase; line-height:14px; padding-bottom:20px; padding-top:22px; font-weight:600; border-radius:999px 999px 999px 999px; background-color:#77524a;"
@@ -63,7 +63,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             and Coffee <span class="text-theme">Shop</span>
         </h1>
-        <a style="" class="ls-l ls-hide-desktop" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-desktop" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:34px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:340px; left:72px; top:694px; text-transform:uppercase; line-height:34px; padding-bottom:32px; padding-top:34px; font-weight:600; border-radius:999px 999px 999px 999px; font-style:normal; text-decoration:none; background-position:0% 0%; background-repeat:no-repeat; background-color:#77524a;"
@@ -162,7 +162,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             and Coffee <span class="text-theme">Menu</span>
         </h1>
-        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:14px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:180px; left:344px; top:647px; text-transform:uppercase; line-height:14px; padding-bottom:20px; padding-top:22px; font-weight:600; border-radius:999px 999px 999px 999px; background-color:#77524a;"
@@ -190,7 +190,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             and Coffee <span class="text-theme">Menu</span>
         </h1>
-        <a style="" class="ls-l ls-hide-desktop" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-desktop" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:34px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:340px; left:72px; top:694px; text-transform:uppercase; line-height:34px; padding-bottom:32px; padding-top:34px; font-weight:600; border-radius:999px 999px 999px 999px; font-style:normal; text-decoration:none; background-position:0% 0%; background-repeat:no-repeat; background-color:#77524a;"
@@ -274,7 +274,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             In Your <span class="text-theme">City</span>
         </h1>
-        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-tablet ls-hide-phone" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:14px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:180px; left:344px; top:647px; text-transform:uppercase; line-height:14px; padding-bottom:20px; padding-top:22px; font-weight:600; border-radius:999px 999px 999px 999px; background-color:#77524a;"
@@ -302,7 +302,7 @@
             data-ls="offsetyin:-300; durationin:1200; delayin:400; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent;">
             In Your <span class="text-theme">City</span>
         </h1>
-        <a style="" class="ls-l ls-hide-desktop" href="#" target="_self"
+        <a style="" class="ls-l ls-hide-desktop" href="#menu-section" target="_self"
             data-ls="offsetyin:-300; durationin:1200; delayin:600; easingin:easeOutBack; bgcolorin:transparent; colorin:transparent; offsetxout:-200; durationout:400; startatout:slidechangeonly + ; bgcolorout:transparent; colorout:transparent; hover:true; hoveropacity:1; hoverbgcolor:#010f1c; hovercolor:#ffffff;">
             <ls-layer
                 style="font-size:34px; color:#fff; text-align:center; font-family:Rubik; cursor:pointer; width:340px; left:72px; top:694px; text-transform:uppercase; line-height:34px; padding-bottom:32px; padding-top:34px; font-weight:600; border-radius:999px 999px 999px 999px; font-style:normal; text-decoration:none; background-position:0% 0%; background-repeat:no-repeat; background-color:#77524a;"

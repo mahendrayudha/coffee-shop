@@ -43,6 +43,9 @@
                                         </div>
                                         <div class="mb-3">
                                             <label class="form-label" for="password">Password</label>
+                                            <div class="float-end">
+                                                <a href="{{ route('comingSoon') }}">Forgot password?</a>
+                                            </div>
                                             <div class="position-relative auth-pass-inputgroup mb-3">
                                                 <input type="password"
                                                     class="form-control pe-5 password-input @error('password') is-invalid @enderror"
@@ -50,16 +53,14 @@
                                                     value="{{ old('password') }}" required>
                                                 <button
                                                     class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
-                                                    type="button" id="password-addon"><i
-                                                        class="ri-eye-fill align-middle"></i></button>
+                                                    type="button" id="password-addon">
+                                                    <i class="ri-eye-fill align-middle"></i>
+                                                </button>
                                                 @error('password')
                                                     <div class="invalid-feedback">
                                                         {{ $message }}
                                                     </div>
                                                 @enderror
-                                            </div>
-                                            <div class="float-end">
-                                                <a href="#" class="text-muted">Forgot password?</a>
                                             </div>
                                         </div>
                                         <div class="form-check">
@@ -79,7 +80,7 @@
                                 </div>
                                 <div class="mt-3 text-center">
                                     <p class="mb-0">
-                                        Don't have an account ?
+                                        Don't have an account?
                                         <a href="{{ route('registration') }}"
                                             class="fw-semibold text-primary text-decoration-underline">
                                             Register now

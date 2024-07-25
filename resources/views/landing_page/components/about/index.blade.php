@@ -31,7 +31,7 @@
                         <li>Drink a premium Tea</li>
                     </ul>
                 </div>
-                <a href="#" class="th-btn">Discover More</a>
+                <a href="{{ route('comingSoon') }}" class="th-btn">Discover More</a>
             </div>
         </div>
     </div>

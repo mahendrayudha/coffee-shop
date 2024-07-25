@@ -15,7 +15,7 @@
                     e-tailers. Intrinsicly supply installed base e-business visavistivco installed base innovation users
                     and adaptive.</p>
                 <h5 class="price_style1 text-theme mb-4">$10.00 - <del>$20.00</del></h5>
-                <a href="#" class="th-btn">Order Now</a>
+                <a href="#menu-section" class="th-btn">Order Now</a>
             </div>
         </div>
         <div class="discount_style3" data-bg-src="assets/landing_page/img/coffee/shape/offer_shape_bg.svg">
