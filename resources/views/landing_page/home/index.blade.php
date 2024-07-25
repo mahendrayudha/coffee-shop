@@ -15,11 +15,11 @@
 
     @include('landing_page.components.about.index')
 
-    @include('landing_page.components.product.index')
+    @include('landing_page.components.menu.index')
 
     @include('landing_page.components.offer.index')
 
-    @include('landing_page.components.blog.index')
+    @include('landing_page.components.news.index')
 
     @include('landing_page.components.footer.index')
 

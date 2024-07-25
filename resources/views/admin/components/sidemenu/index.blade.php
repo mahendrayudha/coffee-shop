@@ -48,7 +48,7 @@
                     <span data-key="t-master-data">Master Data</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="#">
+                    <a class="nav-link menu-link" href="{{ route('comingSoon') }}">
                         <i class="mdi mdi-puzzle-outline"></i>
                         <span data-key="t-product">Product</span>
                     </a>

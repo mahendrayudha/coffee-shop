@@ -16,6 +16,7 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', [HomeController::class, 'index'])->name('home');
+Route::view('comingSoon', 'comingSoon')->name('comingSoon');
 Route::get('/login', [AuthController::class, 'index'])->name('login')->middleware('guest');
 Route::post('/auth', [AuthController::class, 'authenticate']);
 Route::get('/registration', [AuthController::class, 'registration'])->name('registration')->middleware('guest');

@@ -19,13 +19,13 @@
                     <a href="{{ route('home') }}">Home</a>
                 </li>
                 <li>
-                    <a href="#">Menu</a>
+                    <a href="#menu-section">Menu</a>
                 </li>
                 <li>
-                    <a href="#">News</a>
+                    <a href="#news-section">News</a>
                 </li>
                 <li>
-                    <a href="#">Contact Us</a>
+                    <a href="{{ route('comingSoon') }}">Contact Us</a>
                 </li>
                 <li>
                     @if (auth()->user() !== null)

@@ -1,4 +1,4 @@
-<section class="space">
+<section id="news-section" class="space">
     <div class="container">
         <div class="title-area text-center">
             <span class="sub-title">
@@ -20,13 +20,13 @@
                             <a href="#"><i class="fa-light fa-calendar-days"></i>15 July, 2023</a>
                         </div>
                         <h3 class="box-title blog-title">
-                            <a href="#">
+                            <a href="{{ route('comingSoon') }}">
                                 10 Reasons To Do A Digital
                                 Detox Challenge
                             </a>
                         </h3>
                         <div class="blog-bottom">
-                            <a href="#" class="line-btn">Read More</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">Read More</a>
                             <a href="#" class="comment">
                                 <i class="fa-regular fa-tag"></i>
                                 Coffee
@@ -45,10 +45,13 @@
                             <a href="#"><i class="fa-regular fa-user"></i>By Pizzan</a>
                             <a href="#"><i class="fa-light fa-calendar-days"></i>16 July, 2023</a>
                         </div>
-                        <h3 class="box-title blog-title"><a href="#">New Restaurant Town Our Ple
-                                Award Contract</a></h3>
+                        <h3 class="box-title blog-title">
+                            <a href="{{ route('comingSoon') }}">
+                                New Restaurant Town Our Ple Award Contract
+                            </a>
+                        </h3>
                         <div class="blog-bottom">
-                            <a href="#" class="line-btn">Read More</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">Read More</a>
                             <a href="#" class="comment">
                                 <i class="fa-regular fa-tag"></i>
                                 Tea
@@ -67,10 +70,13 @@
                             <a href="#"><i class="fa-regular fa-user"></i>By Pizzan</a>
                             <a href="#"><i class="fa-light fa-calendar-days"></i>17 July, 2023</a>
                         </div>
-                        <h3 class="box-title blog-title"><a href="#">Innovative Hot Chessy raw Pasta
-                                Make Creator.</a></h3>
+                        <h3 class="box-title blog-title">
+                            <a href="{{ route('comingSoon') }}">
+                                Innovative Hot Chessy raw Pasta Make Creator.
+                            </a>
+                        </h3>
                         <div class="blog-bottom">
-                            <a href="#" class="line-btn">Read More</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">Read More</a>
                             <a href="#" class="comment">
                                 <i class="fa-regular fa-tag"></i>
                                 Coffee
@@ -89,10 +95,13 @@
                             <a href="#"><i class="fa-regular fa-user"></i>By Pizzan</a>
                             <a href="#"><i class="fa-light fa-calendar-days"></i>21 July, 2023</a>
                         </div>
-                        <h3 class="box-title blog-title"><a href="#">Best Hot Chessy raw In Pasta
-                                Makeing Trick.</a></h3>
+                        <h3 class="box-title blog-title">
+                            <a href="{{ route('comingSoon') }}">
+                                Best Hot Chessy raw In Pasta Makeing Trick.
+                            </a>
+                        </h3>
                         <div class="blog-bottom">
-                            <a href="#" class="line-btn">Read More</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">Read More</a>
                             <a href="#" class="comment">
                                 <i class="fa-regular fa-tag"></i>
                                 Tea
