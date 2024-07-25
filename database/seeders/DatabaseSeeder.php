@@ -13,12 +13,15 @@ class DatabaseSeeder extends Seeder
      */
     public function run(): void
     {
-        // \App\Models\User::factory(10)->create();
+        $roles = [
+            ['id' => '1', 'name' => 'Super Admin'],
+            ['id' => '2', 'name' => 'Customer'],
+            ['id' => '3', 'name' => 'Employee'],
+        ];
 
-        \App\Models\Role::create([
-            'id' => '1',
-            'name' => 'Super Admin',
-        ]);
+        foreach ($roles as $role) {
+            \App\Models\Role::updateOrCreate(['id' => $role['id']], $role);
+        }
 
         \App\Models\User::factory()->create([
             'name' => 'Super Admin',

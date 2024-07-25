@@ -45,11 +45,13 @@
                                     <form action="/logout" method="POST">
                                         @csrf
                                         <p>
-                                            <button class="th-btn style3 mt-3" type="submit">Log Out</button>
+                                            <button class="th-btn style3 mt-3 d-none d-xl-block" type="submit">
+                                                LOG OUT
+                                            </button>
                                         </p>
                                     </form>
                                 @else
-                                    <a href="{{ route('login') }}" class="th-btn style3">LOG IN</a>
+                                    <a href="{{ route('login') }}" class="th-btn style3 d-none d-xl-block">LOG IN</a>
                                 @endif
                             </div>
                         </div>

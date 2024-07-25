@@ -15,7 +15,7 @@ return new class extends Migration
 
         Schema::create('users', function (Blueprint $table) {
             $table->id()->comment('id user');
-            $table->unsignedBigInteger('id_role')->index()->comment('id for user role');
+            $table->unsignedBigInteger('id_role')->default('2')->index()->comment('id for user role');
             $table->foreign('id_role')->references('id')->on('roles');
             $table->string('name')->comment('user name');
             $table->string('email')->unique()->comment('email for each user');
