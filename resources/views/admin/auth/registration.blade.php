@@ -71,10 +71,33 @@
                                                     value="{{ old('password') }}" required>
                                                 <button
                                                     class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
-                                                    type="button" id="password-addon">
+                                                    type="button" id="password-addon" tabindex="-1">
                                                     <i class="ri-eye-fill align-middle"></i>
                                                 </button>
                                                 @error('password')
+                                                    <div class="invalid-feedback">
+                                                        {{ $message }}
+                                                    </div>
+                                                @enderror
+                                            </div>
+                                        </div>
+                                        <div class="mb-3">
+                                            <label class="form-label" for="password">
+                                                Password Confirmation
+                                                <span class="text-danger">*</span>
+                                            </label>
+                                            <div class="position-relative auth-pass-inputgroup">
+                                                <input type="password"
+                                                    class="form-control pe-5 password-input @error('password_confirmation') is-invalid @enderror"
+                                                    placeholder="Confirm password" id="password_confirmation"
+                                                    name="password_confirmation" value="{{ old('password_confirmation') }}"
+                                                    required>
+                                                <button
+                                                    class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
+                                                    type="button" id="password-addon" tabindex="-1">
+                                                    <i class="ri-eye-fill align-middle"></i>
+                                                </button>
+                                                @error('password_confirmation')
                                                     <div class="invalid-feedback">
                                                         {{ $message }}
                                                     </div>
@@ -85,7 +108,7 @@
                                             <p class="mb-0 fs-12 text-muted fst-italic">
                                                 By registering you agree to the Coffee Shop
                                                 <a href="{{ route('comingSoon') }}"
-                                                    class="text-primary text-decoration-underline fst-normal fw-medium">
+                                                    class="text-primary text-decoration-underline fst-normal fw-medium" tabindex="-1">
                                                     Terms of Use
                                                 </a>
                                             </p>
