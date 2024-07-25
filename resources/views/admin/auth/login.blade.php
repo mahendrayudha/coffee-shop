@@ -44,7 +44,7 @@
                                         <div class="mb-3">
                                             <label class="form-label" for="password">Password</label>
                                             <div class="float-end">
-                                                <a href="{{ route('comingSoon') }}">Forgot password?</a>
+                                                <a href="{{ route('comingSoon') }}" tabindex="-1">Forgot password?</a>
                                             </div>
                                             <div class="position-relative auth-pass-inputgroup mb-3">
                                                 <input type="password"

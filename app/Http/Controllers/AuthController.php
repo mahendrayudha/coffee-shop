@@ -21,7 +21,12 @@ class AuthController extends Controller
             'password' => 'required|string',
         ]);
 
-        $user = User::with('role')->where('email', $credentials['email'])->with('role')->first();
+        // Escape the email input by applying the 'e' function to it
+        // The 'e' function is a Laravel helper function that escapes special characters in a string
+        // This is done to prevent potential security issues caused by cross-site scripting (XSS) attacks
+        $credentials['email'] = e($credentials['email']);
+
+        $user = User::where('email', $credentials['email'])->with('role')->first();
 
         if (!$user) {
             return back()->withErrors([
@@ -29,7 +34,7 @@ class AuthController extends Controller
             ])->withInput();
         }
 
-        if (!Auth::attempt(['email' => $credentials['email'], 'password' => $credentials['password']])) {
+        if (!Auth::attempt($credentials)) {
             return back()->withErrors([
                 'password' => 'Wrong password.',
             ])->withInput();
@@ -73,13 +78,17 @@ class AuthController extends Controller
         $request->validate([
             'name' => 'required|string|max:255',
             'email' => 'required|string|email|max:255|unique:users',
-            'password' => 'required|string|min:8',
+            'password' => 'required|string|min:8|confirmed',
         ]);
+
+        // Escape name and email inputs
+        $name = e($request->name);
+        $email = e($request->email);
 
         $user = User::create([
             'id_role' => '2',
-            'name' => $request->name,
-            'email' => $request->email,
+            'name' => $name,
+            'email' => $email,
             'password' => Hash::make($request->password),
             'user_status' => 'active',
         ]);
