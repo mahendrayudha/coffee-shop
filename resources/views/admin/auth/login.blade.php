@@ -11,7 +11,7 @@
                             <div class="card-body p-4">
                                 <div class="text-center mt-2">
                                     <h5 class="text-primary">Welcome Back!</h5>
-                                    <p class="text-muted">Log in to continue to Velzon.</p>
+                                    <p class="text-muted">Log in to continue to Coffee Shop.</p>
                                 </div>
                                 @if (session()->has('success'))
                                     <div class="alert alert-success alert-dismissible fade show" role="alert">
@@ -33,7 +33,8 @@
                                         <div class="mb-3">
                                             <label for="email" class="form-label">Email</label>
                                             <input type="text" class="form-control @error('email') is-invalid @enderror"
-                                                id="email" name="email" placeholder="Enter email" value="{{ old('email') }}">
+                                                id="email" name="email" placeholder="Enter email"
+                                                value="{{ old('email') }}" required>
                                             @error('email')
                                                 <div class="invalid-feedback">
                                                     {{ $message }}
@@ -45,7 +46,8 @@
                                             <div class="position-relative auth-pass-inputgroup mb-3">
                                                 <input type="password"
                                                     class="form-control pe-5 password-input @error('password') is-invalid @enderror"
-                                                    placeholder="Enter password" id="password" name="password" value="{{ old('password') }}">
+                                                    placeholder="Enter password" id="password" name="password"
+                                                    value="{{ old('password') }}" required>
                                                 <button
                                                     class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
                                                     type="button" id="password-addon"><i
@@ -78,7 +80,8 @@
                                 <div class="mt-3 text-center">
                                     <p class="mb-0">
                                         Don't have an account ?
-                                        <a href="#" class="fw-semibold text-primary text-decoration-underline">
+                                        <a href="{{ route('registration') }}"
+                                            class="fw-semibold text-primary text-decoration-underline">
                                             Register now
                                         </a>
                                     </p>
@@ -98,29 +101,15 @@
                 </div>
             </div>
         </div>
-        <footer class="footer">
-            <div class="container">
-                <div class="row">
-                    <div class="col-lg-12">
-                        <div class="text-center">
-                            <p class="mb-0">&copy;
-                                <script>
-                                    document.write(new Date().getFullYear())
-                                </script> Coffe Shop
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </footer>
+        @include('admin.components.auth_footer.index')
     </div>
 
     <script>
         function onClickLogin() {
-            event.preventDefault(); // Mencegah form submit default
+            event.preventDefault();
 
             var email = $('#email').val();
-            var password = $('#password').val(); // Pastikan nama input adalah password
+            var password = $('#password').val();
 
             if (email !== '' && password !== '') {
                 $('#login-btn').val('Loading...');
