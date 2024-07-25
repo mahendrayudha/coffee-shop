@@ -11,10 +11,10 @@
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
-                                <a href="#">Art Coffee</a>
+                                <a href="{{ route('comingSoon') }}">Art Coffee</a>
                             </h3>
                             <p class="category-box_text">With Cream</p>
-                            <a href="#" class="line-btn">See Menus</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">See Menus</a>
                         </div>
                     </div>
                 </div>
@@ -25,10 +25,10 @@
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
-                                <a href="#">Black Tea</a>
+                                <a href="{{ route('comingSoon') }}">Black Tea</a>
                             </h3>
                             <p class="category-box_text">With Sugar</p>
-                            <a href="#" class="line-btn">See Menus</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">See Menus</a>
                         </div>
                     </div>
                 </div>
@@ -39,10 +39,10 @@
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
-                                <a href="#">Cappuccino</a>
+                                <a href="{{ route('comingSoon') }}">Cappuccino</a>
                             </h3>
                             <p class="category-box_text">With Oak Milk</p>
-                            <a href="#" class="line-btn">See Menus</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">See Menus</a>
                         </div>
                     </div>
                 </div>
@@ -53,10 +53,10 @@
                         </div>
                         <div class="category-box_content">
                             <h3 class="category-box_title">
-                                <a href="#">Cold Coffee</a>
+                                <a href="{{ route('comingSoon') }}">Cold Coffee</a>
                             </h3>
                             <p class="category-box_text">With Ice</p>
-                            <a href="#" class="line-btn">See Menus</a>
+                            <a href="{{ route('comingSoon') }}" class="line-btn">See Menus</a>
                         </div>
                     </div>
                 </div>

@@ -70,7 +70,7 @@
                                                     placeholder="Enter password" id="password" name="password"
                                                     value="{{ old('password') }}" required>
                                                 <button
-                                                    class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted password-addon"
+                                                    class="btn btn-link position-absolute end-0 top-0 text-decoration-none text-muted shadow-none password-addon"
                                                     type="button" id="password-addon">
                                                     <i class="ri-eye-fill align-middle"></i>
                                                 </button>
@@ -84,7 +84,7 @@
                                         <div class="mb-4">
                                             <p class="mb-0 fs-12 text-muted fst-italic">
                                                 By registering you agree to the Coffee Shop
-                                                <a href="#"
+                                                <a href="{{ route('comingSoon') }}"
                                                     class="text-primary text-decoration-underline fst-normal fw-medium">
                                                     Terms of Use
                                                 </a>
@@ -93,11 +93,21 @@
                                         <div class="mt-4">
                                             <button class="btn btn-success w-100" type="submit">Register</button>
                                         </div>
-                                        <div class="mt-4 text-center">
-                                            <p class="mb-0">Already have an account ?
+                                        <div class="mt-3 text-center">
+                                            <p class="mb-0">
+                                                Already have an account?
                                                 <a href="{{ route('login') }}"
                                                     class="fw-semibold text-primary text-decoration-underline">
                                                     Log In
+                                                </a>
+                                            </p>
+                                        </div>
+                                        <div class="mt-2 text-center">
+                                            <p class="mb-0">
+                                                Back to
+                                                <a href="{{ route('home') }}"
+                                                    class="fw-semibold text-primary text-decoration-underline">
+                                                    home page
                                                 </a>
                                             </p>
                                         </div>

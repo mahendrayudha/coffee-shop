@@ -9,7 +9,7 @@
                         <a href="#" class="remove remove_from_cart_button">
                             <i class="far fa-times"></i>
                         </a>
-                        <a href="#">
+                        <a href="{{ route('comingSoon') }}">
                             <img src="assets/landing_page/img/menu/menu_thumb_1_1.png" alt="Cart Image">
                             Daria Shevtsova
                         </a>
@@ -24,7 +24,7 @@
                         <a href="#" class="remove remove_from_cart_button">
                             <i class="far fa-times"></i>
                         </a>
-                        <a href="#">
+                        <a href="{{ route('comingSoon') }}">
                             <img src="assets/landing_page/img/menu/menu_thumb_1_2.png" alt="Cart Image">
                             Chicken Masala
                         </a>
@@ -44,8 +44,8 @@
                     </span>
                 </p>
                 <p class="woocommerce-mini-cart__buttons buttons">
-                    <a href="cart.html" class="th-btn wc-forward">View cart</a>
-                    <a href="checkout.html" class="th-btn checkout wc-forward">Checkout</a>
+                    <a href="{{ route('comingSoon') }}" class="th-btn wc-forward">View cart</a>
+                    <a href="{{ route('comingSoon') }}" class="th-btn checkout wc-forward">Checkout</a>
                 </p>
             </div>
         </div>
