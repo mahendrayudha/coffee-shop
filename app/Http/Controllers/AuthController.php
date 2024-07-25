@@ -10,7 +10,7 @@ class AuthController extends Controller
 {
     public function index()
     {
-        return view('auth.login');
+        return view('admin.auth.login');
     }
 
     public function authenticate(Request $request)
@@ -20,7 +20,7 @@ class AuthController extends Controller
             'password' => 'required|string',
         ]);
 
-        $user = User::where('email', $credentials['email'])->first();
+        $user = User::with('role')->where('email', $credentials['email'])->with('role')->first();
 
         if (!$user) {
             return back()->withErrors([
@@ -37,9 +37,8 @@ class AuthController extends Controller
         $request->session()->regenerate();
 
         if ($user->user_status == "active") {
-            if ($user->id_role !== "1") {
-                return redirect()->intended('/home');
-                // return redirect()->intended('/dashboard');
+            if ($user->id_role == "1") {
+                return redirect()->intended('/dashboard');
             } else {
                 return redirect()->intended('/home');
             }

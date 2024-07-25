@@ -3,51 +3,41 @@
     data-sidebar-image="none" data-preloader="disable">
 
 <head>
+
     <meta charset="utf-8" />
-    <title>Coffee Shop</title>
+    <title>Coffe Shop</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta content="Coffee Shop" name="description" />
-    {{-- App favicon  --}}
+    <meta content="Coffe Shop" name="description" />
+    {{-- App favicon --}}
     <link rel="shortcut icon" href="assets/admin/images/favicon.ico">
 
-    {{-- Layout config Js  --}}
+    {{-- Layout config Js --}}
     <script src="assets/admin/js/layout.js"></script>
-    {{-- Bootstrap Css  --}}
+    {{-- Bootstrap Css --}}
     <link href="assets/admin/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
-    {{-- Icons Css  --}}
+    {{-- Icons Css --}}
     <link href="assets/admin/css/icons.min.css" rel="stylesheet" type="text/css" />
-    {{-- App Css --}}
+    {{-- App Cs --}}
     <link href="assets/admin/css/app.min.css" rel="stylesheet" type="text/css" />
-    {{-- custom Css --}}
+    {{-- custom Cs --}}
     <link href="assets/admin/css/custom.min.css" rel="stylesheet" type="text/css" />
 
 </head>
 
 <body>
-    <div id="layout-wrapper">
-        @include('admin.components.header.index')
-        @include('admin.components.sidemenu.index')
-        <div class="vertical-overlay"></div>
-        <div class="main-content">
-            <div class="page-content">
-                <div class="container-fluid">
-                    @yield('container')
-                </div>
-            </div>
-            @include('admin.components.footer.index')
-        </div>
-    </div>
+    @yield('container')
 
-    {{-- JAVASCRIPT  --}}
+    {{-- JAVASCRIPT --}}
     <script src="assets/admin/libs/bootstrap/js/bootstrap.bundle.min.js"></script>
     <script src="assets/admin/libs/simplebar/simplebar.min.js"></script>
     <script src="assets/admin/libs/node-waves/waves.min.js"></script>
     <script src="assets/admin/libs/feather-icons/feather.min.js"></script>
     <script src="assets/admin/js/pages/plugins/lord-icon-2.1.0.js"></script>
     <script src="assets/admin/js/plugins.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
 
-    {{-- App js  --}}
-    <script src="assets/admin/js/app.js"></script>
+    {{-- password-addon init --}}
+    <script src="assets/admin/js/pages/password-addon.init.js"></script>
 </body>
 
 </html>
