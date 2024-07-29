@@ -1,19 +1,19 @@
 <div class="app-menu navbar-menu">
     <div class="navbar-brand-box">
-        <a href="{{route('dashboard')}}" class="logo logo-dark">
+        <a href="{{ route('dashboard') }}" class="logo logo-dark">
             <span class="logo-sm">
-                <img src="assets/admin/images/logo-sm.png" alt="" height="22">
+                <img src="{{ asset('assets/admin/images/logo-sm.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="assets/admin/images/logo-dark.png" alt="" height="17">
+                <img src="{{ asset('assets/admin/images/logo-dark.png') }}" alt="" height="17">
             </span>
         </a>
-        <a href="{{route('dashboard')}}" class="logo logo-light">
+        <a href="{{ route('dashboard') }}" class="logo logo-light">
             <span class="logo-sm">
-                <img src="assets/admin/images/logo-sm.png" alt="" height="22">
+                <img src="{{ asset('assets/admin/images/logo-sm.png') }}" alt="" height="22">
             </span>
             <span class="logo-lg">
-                <img src="assets/admin/images/logo-light.png" alt="" height="17">
+                <img src="{{ asset('assets/admin/images/logo-light.png') }}" alt="" height="17">
             </span>
         </a>
         <button type="button" class="btn btn-sm p-0 fs-20 header-item float-end btn-vertical-sm-hover"
@@ -36,7 +36,7 @@
                     <div class="collapse menu-dropdown" id="sidebarDashboards">
                         <ul class="nav nav-sm flex-column">
                             <li class="nav-item">
-                                <a href="{{route('dashboard')}}" class="nav-link" data-key="t-analytics">
+                                <a href="{{ route('dashboard') }}" class="nav-link" data-key="t-analytics">
                                     Analytics
                                 </a>
                             </li>
@@ -48,9 +48,15 @@
                     <span data-key="t-master-data">Master Data</span>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link menu-link" href="{{ route('comingSoon') }}">
+                    <a class="nav-link menu-link" href="{{ route('productCategory.index') }}">
+                        <i class="mdi mdi-view-grid-plus-outline"></i>
+                        <span data-key="t-product-category">Product Category</span>
+                    </a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link menu-link" href="{{ route('product.index') }}">
                         <i class="mdi mdi-puzzle-outline"></i>
-                        <span data-key="t-product">Product</span>
+                        <span data-key="t-product">Products</span>
                     </a>
                 </li>
             </ul>

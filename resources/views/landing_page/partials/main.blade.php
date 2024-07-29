@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta http-equiv="x-ua-compatible" content="ie=edge">
     <title>Coffee Shop</title>
+    <meta name="csrf-token" content="{{ csrf_token() }}">
     <meta name="description" content="Coffee Shop">
     <meta name="keywords" content="Coffee Shop">
     <meta name="robots" content="INDEX,FOLLOW">
